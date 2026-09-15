@@ -1,0 +1,14 @@
+```css
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid div {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+```
